@@ -1,0 +1,1 @@
+AI tools were used to assist with frontend UI/UX design and styling.
