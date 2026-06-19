@@ -1,7 +1,7 @@
 import express from "express";
-import { connectDB } from "../config/db";
-import taskRoutes from "../routes/task.route";
+import { connectDB } from "./config/db";
 import cors from 'cors';
+import taskRoutes from "./routes/task.route";
 const app = express();
 connectDB();
 app.use(cors());
